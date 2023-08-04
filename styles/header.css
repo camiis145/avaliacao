@@ -56,3 +56,13 @@ text-transform: uppercase;
     padding: 1em;
     background-color: var(--branco);
 }
+.titulo__cabecalho{
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    .titulo__cabecalho{
+        font-size: 30px;
+        color: darkorchid;
+        display: block;
+    }
+}
