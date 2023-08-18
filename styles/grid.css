@@ -1,6 +1,11 @@
 .Imagem{
     width: 80px!important;
     height: 60px!important;
+    border-top: 5px groove rgb(191, 71, 247);
+    border-bottom: 5px groove rgb(191, 71, 247);
+    border-left: 5px groove rgb(191, 71, 247);
+    border-right: 5px groove rgb(191, 71, 247);
+
 }
 .div-todasimagens{
     display: grid;
@@ -14,4 +19,20 @@
     color: rgb(146, 83, 204);
     margin-bottom: 7px;
     text-align: center;
+}
+@media screen and (min-width: 1024px) {
+    .Imagem{
+        border-top: 5px dashed rgb(138, 13, 107);
+        border-bottom: 5px dashed rgb(138, 13, 107);
+        border-left: 5px dashed rgb(138, 13, 107);
+        border-right: 5px dashed rgb(138, 13, 107);
+        width:120px !important;
+        height: 100px !important;
+    
+    }
+    .titulo{
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: block;
+    }
 }

@@ -58,11 +58,13 @@ text-transform: uppercase;
 }
 .titulo__cabecalho{
     display: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 @media screen and (min-width: 1024px) {
     .titulo__cabecalho{
         font-size: 30px;
-        color: darkorchid;
+        color: rgb(204, 50, 165);
         display: block;
     }
+
 }
